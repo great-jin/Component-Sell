@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9899529C-2205-4E30-B4BB-A46CD93648C8}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ComponentSell</RootNamespace>
+    <AssemblyName>ComponentSell</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Staff\AlterPower.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\AlterPower.Designer.cs">
+      <DependentUpon>AlterPower.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\AlterPwd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\AlterPwd.Designer.cs">
+      <DependentUpon>AlterPwd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conpact\CheckConpact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conpact\CheckConpact.Designer.cs">
+      <DependentUpon>CheckConpact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Order\CheckOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\CheckOrder.Designer.cs">
+      <DependentUpon>CheckOrder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Client.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Client.Designer.cs">
+      <DependentUpon>Client.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Conpact\Conpact.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Conpact\Conpact.Designer.cs">
+      <DependentUpon>Conpact.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Class\Data.cs" />
+    <Compile Include="BackUp\DataBackup.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackUp\DataBackup.Designer.cs">
+      <DependentUpon>DataBackup.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BackUp\DataRecovery.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BackUp\DataRecovery.Designer.cs">
+      <DependentUpon>DataRecovery.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Destory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Destory.Designer.cs">
+      <DependentUpon>Destory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Staff\Employee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Staff\Employee.Designer.cs">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Lock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Lock.Designer.cs">
+      <DependentUpon>Lock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Main_Ce.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Main_Ce.Designer.cs">
+      <DependentUpon>Main_Ce.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Em.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Em.Designer.cs">
+      <DependentUpon>Main_Em.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Class\MySeal.cs" />
+    <Compile Include="Order\Order.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Order\Order.Designer.cs">
+      <DependentUpon>Order.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Client\PayContrack.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\PayContrack.Designer.cs">
+      <DependentUpon>PayContrack.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Client\Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Client\Register.Designer.cs">
+      <DependentUpon>Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_Class\SqlHelper.cs" />
+    <Compile Include="Storage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Storage.Designer.cs">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Staff\AlterPower.resx">
+      <DependentUpon>AlterPower.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\AlterPwd.resx">
+      <DependentUpon>AlterPwd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conpact\CheckConpact.resx">
+      <DependentUpon>CheckConpact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\CheckOrder.resx">
+      <DependentUpon>CheckOrder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\Client.resx">
+      <DependentUpon>Client.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Conpact\Conpact.resx">
+      <DependentUpon>Conpact.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackUp\DataBackup.resx">
+      <DependentUpon>DataBackup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BackUp\DataRecovery.resx">
+      <DependentUpon>DataRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Destory.resx">
+      <DependentUpon>Destory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Staff\Employee.resx">
+      <DependentUpon>Employee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Lock.resx">
+      <DependentUpon>Lock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Main_Ce.resx">
+      <DependentUpon>Main_Ce.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Em.resx">
+      <DependentUpon>Main_Em.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Order\Order.resx">
+      <DependentUpon>Order.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\PayContrack.resx">
+      <DependentUpon>PayContrack.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Client\Register.resx">
+      <DependentUpon>Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Storage.resx">
+      <DependentUpon>Storage.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_03.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Data\XSXT.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Data\XSXT_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>XSXT.mdf</DependentUpon>
+    </Content>
+    <Content Include="Resources\Client.jpg" />
+    <Content Include="Resources\conpact.png" />
+    <Content Include="Resources\conpact_act.png" />
+    <Content Include="Resources\Horse.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Sql.Server.Express.10.0">
+      <Visible>False</Visible>
+      <ProductName>SQL Server 2008 Express Edition</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
