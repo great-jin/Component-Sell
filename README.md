@@ -1,4 +1,4 @@
-### 基于Windows系统零部件销售系统
+## 基于Windows系统零部件销售系统
 
 ### 一、软件版本(Version)：VS 2010, SQL Server 2008
 
