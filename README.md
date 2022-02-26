@@ -18,7 +18,7 @@ public string strcon = "data source=GREAT;initial catalog=XSXT;integrated securi
 ```
 
 ## 三、效果预览
-![登录](image/2.png)
+<div align=center><img src="image/2.png"/></>
 ![注册](image/1.png)
 ![主页面](image/3.png)
 ![订单页](image/4.png)
