@@ -1,5 +1,7 @@
 # 基于Windows系统零部件销售系统
 
+Component-Sell是一款基于C#开发的Windows端应用，其分为两个模块：分别为用户下单模块与后台审批管理模块。
+
 ## 一、软件版本(Version)：VS 2010, SQL Server 2008
 
 不同版本兼容可能存在未知BUG。
